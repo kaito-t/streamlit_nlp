@@ -15,7 +15,8 @@ def get_cotoha_acces_token():
     token_url = "https://api.ce-cotoha.com/v1/oauth/accesstokens"
 
     headers = {
-        "Content-Type": "application/json",
+        url = 'https://github.com/kaito-t/streamlit_nlp/blob/main/secret.json'
+        #"Content-Type": "application/json",
         "charset": "UTF-8"
     }
 
